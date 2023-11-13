@@ -1,0 +1,30 @@
+.tema{
+    display: flex;
+    justify-content: center;
+    padding: 4.5rem 0;
+}
+
+.logo{
+    width: 20px;
+    height: 45px;
+    flex-shrink: 0;
+    padding: 5px;
+}
+
+.to{
+    color: var(--azul-2);
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.do{
+    color: var(--roxo-1);
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}

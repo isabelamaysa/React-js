@@ -1,0 +1,35 @@
+:root{
+    --cor-1: #212121;
+    --cor-2: #424242;
+    --cor-3: #616161;
+    --cor-4: #757575;
+    --cor-5: #9E9E9E;
+
+    --verde-1: #79AB46;
+    --verde-2: #A6EB60;
+    --verde-3: #00b37e;
+
+    --red-1: #F75A68;
+
+    --gray-100: #e1e1e6;
+    --gray-300: #c4c4cc;
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--cor-1);
+    color: white;
+    -webkit-font-smoothing: antialiased; /*para em alguns navegadores as fontes ficarem mais finas e detalhadas*/
+}
+
+body, input, textarea, button {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1rem; /*1rem = 16px, padrao do html e possibilitando q se adeque ao tam. escolhido pelo usuario*/
+}

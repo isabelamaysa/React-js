@@ -1,0 +1,27 @@
+:root{
+    --azul-1:#1E6F9F;
+    --azul-2:#4EA8DE;
+    --roxo-1: #5E60CE;
+    --roxo-2:#8284FA;
+
+    --cinza-1:#1A1A1A;
+    --cinza-2:#262626;
+    --cinza-3:#333;
+    --cinza-4:#808080;
+
+    font-family: 'Inter', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+}
+
+body {
+    background: var(--cinza-1);
+    color: white;
+    -webkit-font-smoothing: antialiased; /*para em alguns navegadores as fontes ficarem mais finas e detalhadas*/
+}

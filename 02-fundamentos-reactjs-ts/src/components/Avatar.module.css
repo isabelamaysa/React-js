@@ -1,0 +1,16 @@
+.avatar {
+    width: 3rem; 
+    height: 3rem;
+    border-radius: 8px;
+}
+
+.avatarWhithBorder {
+     /*box-sizing: initial;/*função para q a imagem continue do mesmo tam. e a borda n comprima ela e sim, fique em volta*/
+
+    width: calc(3rem + 12px); /*outra forma de manter o tamanho da img é fazer calc do tam escolhido + a soma dos px das bordas*/
+
+    height: calc(3rem + 12px);
+    border-radius: 8px;
+    border: 4px solid var(--cor-2); /*borda cinza*/
+    outline: 2px solid var(--verde-1); /*borda verde da borda*/
+}

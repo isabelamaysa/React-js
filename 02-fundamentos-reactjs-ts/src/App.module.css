@@ -1,0 +1,17 @@
+.wrapper {
+    max-width: 70rem;
+    margin: 2rem auto;
+    padding: 0 1rem;
+
+    display: grid;
+    grid-template-columns: 256px 1fr; /* 1rf = vai ter o tamanho flexivél, usado no grid */
+    gap: 2rem; /*o espaçamento entre as colunas*/
+    align-items: flex-start; /*para deixar alinhado o perfil e o post com o topo*/
+
+}
+
+@media (max-width: 768px) {
+    .wrapper {
+        grid-template-columns: 1fr;
+    }
+}
