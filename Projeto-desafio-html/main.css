@@ -1,4 +1,4 @@
-#addTarefa {
+#addtarefa {
     width: 638px;
     height: 23px;
     padding: 16px;
@@ -9,12 +9,12 @@
     background: var(--cinza-2);
 }
 
-.bottomadd{
+form{
     text-align: center;
     margin-top: calc(0px - 1.5rem - 6px);
 }
 
-#criar{
+button{
     background: var(--azul-1);
     color: white;
     width: 95px;
@@ -31,7 +31,7 @@
     position:calc(1px - 2rem);
 }
 
-#criar:hover {
+button:hover {
     background: var(--azul-2);
 }
 
@@ -74,9 +74,30 @@
     color: var(--cinza-4);
 }
 
+.contagem{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0px;
+    margin: 50px;
+}
+
+#criadas{
+    color: var(--azul-2);
+}
+
+#concluidas{
+    color: var(--roxo-1);
+}
+
+.checked{
+    text-decoration: line-through;
+}
 
 @media screen and (max-width: 400px){
-    #addTarefa{
+    #addtarefa{
         width: 50%;
     }
     .lista{
@@ -90,7 +111,7 @@
 }
 
 @media screen and (min-width:400px) and (max-width:900px) {
-    #addTarefa{
+    #addtarefa{
         width: 50%;
     }
 
