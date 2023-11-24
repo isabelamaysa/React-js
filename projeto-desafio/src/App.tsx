@@ -1,6 +1,6 @@
 import styles from './App.module.css'
 import { Header } from './Header';
-import { Tarefas } from './Tarefas';
+import {Tarefas} from './Tarefas'
 import './global.css';
 
 function App() {

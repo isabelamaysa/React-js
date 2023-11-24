@@ -1,5 +1,5 @@
 .adicionar {
-    width: 638px;
+    width: 60%;
     height: 23px;
     padding: 16px;
     box-shadow: 1px 1px 8px 1px black;
@@ -27,4 +27,10 @@
 
 .criar:hover {
     background: var(--azul-2);
+}
+
+.tarefas{
+    background: var(--azul-1);
+    padding: 1rem;
+    margin: 11%;
 }
