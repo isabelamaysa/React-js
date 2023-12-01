@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 
-
+import { Projects } from './components/pages/Projects'
 import {Company} from './components/pages/Company'
 import {Contact} from './components/pages/Contact'
 import {NewProject} from './components/pages/NewProject'
@@ -18,6 +18,9 @@ function App() {
         <Container customClass="min_height" /*Tudo q esta dentro do container vai ficar dentro da div com o props */>
           <Route exact path="/">
             <Home />
+          </Route>
+          <Route exact path="/projects">
+            <Projects />
           </Route>
           <Route exact path="/company">
             <Company />
