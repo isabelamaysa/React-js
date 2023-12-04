@@ -6,20 +6,20 @@ export function Message({type, msg}) { /*qnd fica entre parentes aqui, é pq est
 
     const [visible, setVisible] = useState(false)
 
-    useEffect(() => {
-        if (!msg) {
+    useEffect(() => { //efeito da mensagem
+        if (!msg) { //se a msg n exister, n mostra nada
             setVisible(false)
             return
         }
 
-        setVisible(true)
+        setVisible(true) //se for verdadeira, se exixtir
 
-        const timer = setTimeout(() => {
-            setVisible(false)
+        const timer = setTimeout(() => { //ira mostrar por 3s
+            setVisible(false) //e depois desaparecerá
         }, 3000)
 
-        return () => clearTimeout(timer)
-    }, [msg])
+        return () => clearTimeout(timer) //sempre precisa finalizar com um return, e aqui fala para limpar time
+    }, [msg]) //useEffect sempre precisa estar ligado a algo, q no caso é o "msg"
 
     return (
         <>
