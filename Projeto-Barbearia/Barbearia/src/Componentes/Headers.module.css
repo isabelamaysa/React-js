@@ -1,0 +1,23 @@
+.heardes {
+    background-color: rgb(45, 45, 45);
+    color: var(--cor5);
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.barbearia {
+    margin-top: 15px;
+}
+
+.img1 {
+    width: 100px; 
+    height: 100%; 
+    background: url('url da imagem') no-repeat center; background-size: cover;
+}
+
+.img2 {
+    width: 100px; 
+    height: 100%; 
+    background: url('url da imagem') no-repeat center; background-size: cover;
+    display: flex;
+ }

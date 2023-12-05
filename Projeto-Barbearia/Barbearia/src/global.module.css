@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    --co1: #00010D;
+    --cor2: #010326;
+    --cor3: #5B83A6;
+    --cor4: #A7C6D9;
+    --cor5: #F2F2F2;
+
+    font-family: 'Dhurjati', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+}
