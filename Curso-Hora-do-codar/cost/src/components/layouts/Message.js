@@ -28,4 +28,4 @@ export function Message({type, msg}) { /*qnd fica entre parentes aqui, é pq est
             )}
         </>
     )
-}
+} 

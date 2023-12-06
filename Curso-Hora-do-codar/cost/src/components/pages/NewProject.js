@@ -36,4 +36,4 @@ export function NewProject() {
             <ProjectForm handleSubmit={createPost} btnText="Criar Projeto"/>
         </div>
     )
-}
+} 
