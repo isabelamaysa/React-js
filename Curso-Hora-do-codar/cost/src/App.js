@@ -8,6 +8,7 @@ import { Home } from './components/pages/Home'
 import { Container } from './components/layouts/Container'
 import { Navbar } from './components/layouts/Navbar'
 import { Footer } from './components/layouts/Footer'
+import { Project } from './components/pages/Project'
 
 
 export function App() {
@@ -19,17 +20,20 @@ export function App() {
           <Route exact path="/">
             <Home />
           </Route>
-          <Route exact path="/projects">
+          <Route path="/projects">
             <Projects />
           </Route>
-          <Route exact path="/company">
+          <Route path="/company">
             <Company />
           </Route>
-          <Route exact path="/contact">
+          <Route path="/contact">
             <Contact />
           </Route>
-          <Route exact path="/newproject">
+          <Route path="/newproject">
             <NewProject />
+          </Route>
+          <Route path="/project/:id">
+            <Project />
           </Route>
         </Container>
       </Switch>

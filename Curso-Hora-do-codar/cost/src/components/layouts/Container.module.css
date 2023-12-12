@@ -2,7 +2,7 @@
     width: 100%;
     max-width: 1200px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin: 0 auto;
     flex-wrap: wrap;
 }
@@ -19,3 +19,4 @@
     flex-direction: column;
     justify-content: flex-start;
 }
+

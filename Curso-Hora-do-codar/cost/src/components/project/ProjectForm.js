@@ -13,7 +13,8 @@ export function ProjectForm({handleSubmit, btnText, projectData}) {
         fetch('http://localhost:5000/categories', {
             method: 'Get',
             headers: {
-                'Content-Type': 'application/json'
+                "Content-type": "application/json",
+                "Access-Control-Allow-Origin": "*",
             },
         })
           .then((resp) => resp.json())
